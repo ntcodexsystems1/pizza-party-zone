@@ -13,7 +13,7 @@ const Home = () => {
 <section className={`  w-full h-screen bg-white `}>
 
 
-<div className=''>
+<div className=' lg:h-screen w-full flex justify-center items-center '>
 
 <div className='fixed -top-10 -right-20  '>
 <img src={hero1} alt="" className='object-cover  h-40 w-40'/>
