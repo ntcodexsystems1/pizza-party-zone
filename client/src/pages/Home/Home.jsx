@@ -21,9 +21,9 @@ const Home = () => {
 
 
 
-<div className=' w-full grid md:grid-cols-2 grid-cols-1 gap-6 md:gap-8 lg:gap-10 pt-12 md:pt-0  '>
+<div className=' w-full grid md:grid-cols-2 grid-cols-1 gap-0  md:gap-8 lg:gap-10 pt-12 md:pt-0  '>
 
-<div className=' h-auto md:order-1 order-2 '>
+<div className='md:h-screen h-auto  md:order-1 order-2 pt-8 md:pt-0'>
     <img src={hero2} alt="" className='w-full  object-cover md:flex hidden h-full '/>
         <img src={MobileHero} alt="" className='w-full h-full object-cover flex md:hidden '/>
 
