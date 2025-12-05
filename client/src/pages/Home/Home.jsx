@@ -10,25 +10,26 @@ const Home = () => {
   return (
 
 
-<section className={`  w-full md:h-screen bg-white   overflow-hidden`}>
+<section className={`  w-full h-screen bg-white `}>
 
 
-<div className=' mx-auto'>
+<div className=''>
+
 <div className='fixed -top-10 -right-20  '>
-<img src={hero1} alt="" className='object-cover md:h-60 md:w-60 h-40 w-40'/>
+<img src={hero1} alt="" className='object-cover  h-40 w-40'/>
 </div>
 
 
 
 <div className=' w-full grid md:grid-cols-2 grid-cols-1 gap-6 md:gap-8 lg:gap-10 pt-12 md:pt-0  '>
 
-<div className=' md:h-screen md:order-1 order-2  '>
-    <img src={hero2} alt="" className='w-full h-full object-cover md:flex hidden'/>
-        <img src={MobileHero} alt="" className='w-full h-full object-cover flex md:hidden ]'/>
+<div className=' h-auto md:order-1 order-2 '>
+    <img src={hero2} alt="" className='w-full  object-cover md:flex hidden h-full '/>
+        <img src={MobileHero} alt="" className='w-full h-full object-cover flex md:hidden '/>
 
 </div>
 
-<div className=' items-center w-full lg:px-12 md:px-4  px-4 flex  justify-center  md:order-2 order-1'>
+<div className=' items-center w-full lg:px-12 md:px-4  px-4 flex  justify-center  md:order-2 order-1 '>
 
 
 <div className='flex flex-col gap-6  h-full md:justify-center justify-center  items-center lg:pe-20 md:items-start text-center  md:text-start'>
