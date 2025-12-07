@@ -9,7 +9,7 @@ const Button = () => {
    <div>
 
 
-<NavLink className="bg-[#FF3F3F] gap-2 rounded-2xl flex justify-center items-center w-[200px] h-12 text-white capitalize font-bold">
+<NavLink className="bg-[#FF3F3F] gap-2 rounded-2xl flex justify-center items-center w-[200px] h-12 text-white capitalize font-bold" to="/Products">
 
 order now <FaBowlFood />
 

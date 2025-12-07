@@ -1,0 +1,396 @@
+{
+    "veg": {
+        "section": [
+            {
+                "title": "SIMPLY VEG.",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "regular",
+                        "price": 115,
+                        "img": "/assets/images/cardImg1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "Medium",
+                        "price": 225,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 3,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "large",
+                        "price": 410,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 4,
+                        "name": "ONLY MARGHERITA",
+                        "description": "Cheese Pizza",
+                        "size": "regular",
+                        "price": 115,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 5,
+                         "name": "ONLY MARGHERITA",
+                        "description": "Cheese Pizza",
+                        "size": "Medium",
+                        "price": 225,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 6,
+                        "name": "ONLY MARGHERITA",
+                        "description": "Cheese Pizza",
+                        "size": "large",
+                        "price": 410,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 7,
+                        "name": "CHEESE & CORN PIZZA",
+                        "description": "Cheese & Corn",
+                        "size": "regular",
+                        "price": 145,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 8,
+                          "name": "CHEESE & CORN PIZZA",
+                        "description": "Cheese & Corn",
+                        "size": "Medium",
+                        "price": 280 ,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 9,
+                           "name": "CHEESE & CORN PIZZA",
+                        "description": "Cheese & Corn",
+                        "size": "large",
+                        "price": 435,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 10,
+                        "name": "CHEESE & TOMATO PIZZA",
+                        "description": "Tomato Cheese",
+                        "size": "regular",
+                        "price": 145,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 11,
+                         "name": "CHEESE & TOMATO PIZZA",
+                        "description": "Tomato Cheese",
+                        "size": "Medium",
+                        "price": 280,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 12,
+                         "name": "CHEESE & TOMATO PIZZA",
+                        "description": "Tomato Cheese",
+                        "size": "large",
+                        "price": 435,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 13,
+                        "name": "ACHAARI PYAAZA",
+                        "description": "Cheesy Onion Pizza",
+                        "size": "regular",
+                        "price": 145,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 14,
+                        "name": "ACHAARI PYAAZA",
+                        "description": "Cheesy Onion Pizza",
+                        "size": "Medium",
+                        "price": 280,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 15,
+                        "name": "ACHAARI PYAAZA",
+                        "description": "Cheesy Onion Pizza",
+                        "size": "large",
+                        "price": 435,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+                ]
+            },
+
+              {
+                "title": "CLASSIC SPECIAL VEG.",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "EXTRA CHEESE MARGHERITA",
+                        "description": "Loaded with Extra Cheese",
+                        "size": "regular",
+                        "price": 199,
+                        "img": "/assets/images/cardImg1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "EXTRA CHEESE MARGHERITA",
+                        "description": "Loaded with Extra Cheese",
+                        "size": "Medium",
+                        "price": 315,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 3,
+                         "name": "EXTRA CHEESE MARGHERITA",
+                        "description": "Loaded with Extra Cheese",
+                        "size": "large",
+                        "price": 455,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 4,
+                        "name": "FRESH VEGGIE",
+                        "description": "Capsicum & Onion",
+                        "size": "regular",
+                        "price": 199,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 5,
+                        "name": "FRESH VEGGIE",
+                        "description": "Capsicum & Onion",
+                        "size": "Medium",
+                        "price": 315,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 6,
+                        "name": "FRESH VEGGIE",
+                        "description": "Capsicum & Onion",
+                        "size": "large",
+                        "price": 455,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 7,
+                        "name": "PERY-PERY PIZZA",
+                        "description": "Onion, Corn & Tomato",
+                        "size": "regular",
+                        "price": 199,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 8,
+                        "name": "PERY-PERY PIZZA",
+                        "description": "Onion, Corn & Tomato",
+                        "size": "Medium",
+                        "price": 315,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 9,
+                        "name": "PERY-PERY PIZZA",
+                        "description": "Onion, Corn & Tomato",
+                        "size": "large",
+                        "price": 455,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 10,
+                        "name": "TRIPLE TANGO PIZZA",
+                        "description": "Golden Corn, Red Paprika, Jalapeno",
+                        "size": "Medium",
+                        "price": 199,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 11,
+                        "name": "TRIPLE TANGO PIZZA",
+                        "description": "Golden Corn, Red Paprika, Jalapeno",
+                        "size": "large",
+                        "price": 315,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 12,
+                        "name": "TRIPLE TANGO PIZZA",
+                        "description": "Golden Corn, Red Paprika, Jalapeno",
+                        "size": "large",
+                        "price": 455,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+                ]
+            },
+
+             {
+                "title": "CLASSIC VEG.",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "regular",
+                        "price": 115,
+                        "img": "/assets/images/cardImg1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "Medium",
+                        "price": 225,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+                ]
+            },
+
+             {
+                "title": "SPECIAL VEG.",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "regular",
+                        "price": 115,
+                        "img": "/assets/images/cardImg1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "Medium",
+                        "price": 225,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+                ]
+            }
+
+            ,
+
+             {
+                "title": "SPICY PIZZA MANIA",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "regular",
+                        "price": 115,
+                        "img": "/assets/images/cardImg1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "Medium",
+                        "price": 225,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+                ]
+            }
+
+            ,   {
+                "title": " SMALL PIZZA MANIA",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "regular",
+                        "price": 115,
+                        "img": "/assets/images/cardImg1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "Medium",
+                        "price": 225,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+                ]
+            },
+
+             {
+                "title": " MAKE IT A MEAL",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "regular",
+                        "price": 115,
+                        "img": "/assets/images/cardImg1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "cheese capsicum",
+                        "description": "Cheese & Capsicum",
+                        "size": "Medium",
+                        "price": 225,
+                        "img": "/assets/images/cardImg1.png"
+                    }
+                ]
+            }
+        ] 
+    }
+    
+
+
+
+
+    }
