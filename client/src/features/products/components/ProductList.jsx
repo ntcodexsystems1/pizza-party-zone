@@ -2,12 +2,16 @@ import React from 'react'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import ProductCard from './ProductCard';
+import { CartContext } from '../../../app/contextApi/CartContext';
+import { useContext } from 'react';
 
-const ProductList = () => {
+const ProductList = ({cat}) => {
   
     const [cardData, setCard] = useState([]);
   
   
+    // all dishes display logic below
+
     useEffect(() => {
   
       const fetchData = async () => {
@@ -16,15 +20,17 @@ const ProductList = () => {
   
           const res = await axios.get('/assets/data.json');
           // Transform data: keep the category title and attach it to each dish
-          const allDishes = Object.values(res.data).flatMap(category =>
-            category.section.map(dish => ({
-  
-              title: dish.title,
-              DishItem: dish.DishItem
-  
-            }))
-          );
-  
+          const allDishes = res.data[cat].section.map((item) => (
+
+{
+title:item.title,
+DishItem:item.DishItem
+}
+
+
+          ))
+
+
           setCard(allDishes);
   
         }
@@ -38,10 +44,16 @@ const ProductList = () => {
   
       fetchData();
   
-    }, [])
+    }, [cat])
   
   
+// add item in cart 
+
+    const {addItem} = useContext(CartContext)
+
   
+
+
     return (
     
 
@@ -59,7 +71,7 @@ const ProductList = () => {
               <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                 {section.DishItem.map((dish) => (
                
-               <ProductCard   dish={dish}  />
+               <ProductCard dish={dish}  addItem={addItem} />
 
                 ))}
               </div>

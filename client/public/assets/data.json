@@ -10,7 +10,7 @@
                         "description": "Cheese & Capsicum",
                         "size": "regular",
                         "price": 115,
-                        "img": "/assets/images/cardImg1.png"
+                        "img": "/assets/images/veg/img1.png"
                     },
                     {
                         "id": 2,
@@ -18,142 +18,115 @@
                         "description": "Cheese & Capsicum",
                         "size": "Medium",
                         "price": 225,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img1.png"
+                    },
                     {
                         "id": 3,
                         "name": "cheese capsicum",
                         "description": "Cheese & Capsicum",
                         "size": "large",
                         "price": 410,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img1.png"
+                    },
                     {
                         "id": 4,
                         "name": "ONLY MARGHERITA",
                         "description": "Cheese Pizza",
                         "size": "regular",
                         "price": 115,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img2.png"
+                    },
                     {
                         "id": 5,
-                         "name": "ONLY MARGHERITA",
+                        "name": "ONLY MARGHERITA",
                         "description": "Cheese Pizza",
                         "size": "Medium",
                         "price": 225,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img2.png"
+                    },
                     {
                         "id": 6,
                         "name": "ONLY MARGHERITA",
                         "description": "Cheese Pizza",
                         "size": "large",
                         "price": 410,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img2.png"
+                    },
                     {
                         "id": 7,
                         "name": "CHEESE & CORN PIZZA",
                         "description": "Cheese & Corn",
                         "size": "regular",
                         "price": 145,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img3.png"
+                    },
                     {
                         "id": 8,
-                          "name": "CHEESE & CORN PIZZA",
+                        "name": "CHEESE & CORN PIZZA",
                         "description": "Cheese & Corn",
                         "size": "Medium",
-                        "price": 280 ,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "price": 280,
+                        "img": "/assets/images/veg/img3.png"
+                    },
                     {
                         "id": 9,
-                           "name": "CHEESE & CORN PIZZA",
+                        "name": "CHEESE & CORN PIZZA",
                         "description": "Cheese & Corn",
                         "size": "large",
                         "price": 435,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img3.png"
+                    },
                     {
                         "id": 10,
                         "name": "CHEESE & TOMATO PIZZA",
                         "description": "Tomato Cheese",
                         "size": "regular",
                         "price": 145,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img4.png"
+                    },
                     {
                         "id": 11,
-                         "name": "CHEESE & TOMATO PIZZA",
+                        "name": "CHEESE & TOMATO PIZZA",
                         "description": "Tomato Cheese",
                         "size": "Medium",
                         "price": 280,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img4.png"
+                    },
                     {
                         "id": 12,
-                         "name": "CHEESE & TOMATO PIZZA",
+                        "name": "CHEESE & TOMATO PIZZA",
                         "description": "Tomato Cheese",
                         "size": "large",
                         "price": 435,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img4.png"
+                    },
                     {
                         "id": 13,
                         "name": "ACHAARI PYAAZA",
                         "description": "Cheesy Onion Pizza",
                         "size": "regular",
                         "price": 145,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img5.png"
+                    },
                     {
                         "id": 14,
                         "name": "ACHAARI PYAAZA",
                         "description": "Cheesy Onion Pizza",
                         "size": "Medium",
                         "price": 280,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img5.png"
+                    },
                     {
                         "id": 15,
                         "name": "ACHAARI PYAAZA",
                         "description": "Cheesy Onion Pizza",
                         "size": "large",
                         "price": 435,
-                        "img": "/assets/images/cardImg1.png"
+                        "img": "/assets/images/veg/img5.png"
                     }
                 ]
             },
-
-              {
+            {
                 "title": "CLASSIC SPECIAL VEG.",
                 "DishItem": [
                     {
@@ -162,7 +135,7 @@
                         "description": "Loaded with Extra Cheese",
                         "size": "regular",
                         "price": 199,
-                        "img": "/assets/images/cardImg1.png"
+                        "img": "/assets/images/veg/img6.png"
                     },
                     {
                         "id": 2,
@@ -170,227 +143,656 @@
                         "description": "Loaded with Extra Cheese",
                         "size": "Medium",
                         "price": 315,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img6.png"
+                    },
                     {
                         "id": 3,
-                         "name": "EXTRA CHEESE MARGHERITA",
+                        "name": "EXTRA CHEESE MARGHERITA",
                         "description": "Loaded with Extra Cheese",
                         "size": "large",
                         "price": 455,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img6.png"
+                    },
                     {
                         "id": 4,
                         "name": "FRESH VEGGIE",
                         "description": "Capsicum & Onion",
                         "size": "regular",
                         "price": 199,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img7.png"
+                    },
                     {
                         "id": 5,
                         "name": "FRESH VEGGIE",
                         "description": "Capsicum & Onion",
                         "size": "Medium",
                         "price": 315,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img7.png"
+                    },
                     {
                         "id": 6,
                         "name": "FRESH VEGGIE",
                         "description": "Capsicum & Onion",
                         "size": "large",
                         "price": 455,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img7.png"
+                    },
                     {
                         "id": 7,
                         "name": "PERY-PERY PIZZA",
                         "description": "Onion, Corn & Tomato",
                         "size": "regular",
                         "price": 199,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img8.png"
+                    },
                     {
                         "id": 8,
                         "name": "PERY-PERY PIZZA",
                         "description": "Onion, Corn & Tomato",
                         "size": "Medium",
                         "price": 315,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img8.png"
+                    },
                     {
                         "id": 9,
                         "name": "PERY-PERY PIZZA",
                         "description": "Onion, Corn & Tomato",
                         "size": "large",
                         "price": 455,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img8.png"
+                    },
                     {
                         "id": 10,
                         "name": "TRIPLE TANGO PIZZA",
                         "description": "Golden Corn, Red Paprika, Jalapeno",
                         "size": "Medium",
                         "price": 199,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img9.png"
+                    },
                     {
                         "id": 11,
                         "name": "TRIPLE TANGO PIZZA",
                         "description": "Golden Corn, Red Paprika, Jalapeno",
                         "size": "large",
                         "price": 315,
-                        "img": "/assets/images/cardImg1.png"
-                    }
-
-                    ,
+                        "img": "/assets/images/veg/img9.png"
+                    },
                     {
                         "id": 12,
                         "name": "TRIPLE TANGO PIZZA",
                         "description": "Golden Corn, Red Paprika, Jalapeno",
                         "size": "large",
                         "price": 455,
-                        "img": "/assets/images/cardImg1.png"
+                        "img": "/assets/images/veg/img9.png"
                     }
                 ]
             },
-
-             {
+            {
                 "title": "CLASSIC VEG.",
                 "DishItem": [
                     {
                         "id": 1,
-                        "name": "cheese capsicum",
-                        "description": "Cheese & Capsicum",
+                        "name": "COUNTRY SPECIAL PIZZA",
+                        "description": "Loaded with Extra Cheese",
                         "size": "regular",
-                        "price": 115,
-                        "img": "/assets/images/cardImg1.png"
+                        "price": 215,
+                        "img": "/assets/images/veg/img10.png"
                     },
                     {
                         "id": 2,
-                        "name": "cheese capsicum",
-                        "description": "Cheese & Capsicum",
+                        "name": "COUNTRY SPECIAL PIZZA",
+                        "description": "Loaded with Extra Cheese",
                         "size": "Medium",
-                        "price": 225,
-                        "img": "/assets/images/cardImg1.png"
+                        "price": 405,
+                        "img": "/assets/images/veg/img10.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "COUNTRY SPECIAL PIZZA",
+                        "description": "Loaded with Extra Cheese",
+                        "size": "large",
+                        "price": 575,
+                        "img": "/assets/images/veg/img10.png"
+                    },
+                    {
+                        "id": 4,
+                        "name": "INDIAN DESHI PIZZA",
+                        "description": "Capsicum & Onion",
+                        "size": "regular",
+                        "price": 215,
+                        "img": "/assets/images/veg/img11.png"
+                    },
+                    {
+                        "id": 5,
+                        "name": "INDIAN DESHI PIZZA",
+                        "description": "Capsicum & Onion",
+                        "size": "Medium",
+                        "price": 405,
+                        "img": "/assets/images/veg/img11.png"
+                    },
+                    {
+                        "id": 6,
+                        "name": "INDIAN DESHI PIZZA",
+                        "description": "Capsicum & Onion",
+                        "size": "large",
+                        "price": 575,
+                        "img": "/assets/images/veg/img11.png"
+                    },
+                    {
+                        "id": 7,
+                        "name": "CHILLY BAILEY GREEN WAVE",
+                        "description": "Onion, Corn & Tomato",
+                        "size": "regular",
+                        "price": 215,
+                        "img": "/assets/images/veg/img12.png"
+                    },
+                    {
+                        "id": 8,
+                        "name": "CHILLY BAILEY GREEN WAVE",
+                        "description": "Onion, Corn & Tomato",
+                        "size": "Medium",
+                        "price": 405,
+                        "img": "/assets/images/veg/img12.png"
+                    },
+                    {
+                        "id": 9,
+                        "name": "CHILLY BAILEY GREEN WAVE",
+                        "description": "Onion, Corn & Tomato",
+                        "size": "large",
+                        "price": 575,
+                        "img": "/assets/images/veg/img12.png"
+                    },
+                    {
+                        "id": 10,
+                        "name": "PEPPY PANEER SPICY PIZZA",
+                        "description": "Capsicum Paneer & Red Paprika",
+                        "size": "regular",
+                        "price": 215,
+                        "img": "/assets/images/veg/img13.png"
+                    },
+                    {
+                        "id": 11,
+                        "name": "PEPPY PANEER SPICY PIZZA",
+                        "description": "Capsicum Paneer & Red Paprika",
+                        "size": "Medium",
+                        "price": 405,
+                        "img": "/assets/images/veg/img13.png"
+                    },
+                    {
+                        "id": 12,
+                        "name": "PEPPY PANEER SPICY PIZZA",
+                        "description": "Capsicum Paneer & Red Paprika",
+                        "size": "large",
+                        "price": 575,
+                        "img": "/assets/images/veg/img13.png"
+                    },
+                    {
+                        "id": 13,
+                        "name": "VEG PARADISE",
+                        "description": "Golden Corn, Black Olives, Capsicum & Red Paprika",
+                        "size": "regular",
+                        "price": 215,
+                        "img": "/assets/images/veg/img14.png"
+                    },
+                    {
+                        "id": 14,
+                        "name": "VEG PARADISE",
+                        "description": "Golden Corn, Black Olives, Capsicum & Red Paprika",
+                        "size": "Medium",
+                        "price": 405,
+                        "img": "/assets/images/veg/img14.png"
+                    },
+                    {
+                        "id": 15,
+                        "name": "VEG PARADISE",
+                        "description": "Golden Corn, Black Olives, Capsicum & Red Paprika",
+                        "size": "large",
+                        "price": 575,
+                        "img": "/assets/images/veg/img14.png"
+                    },
+                    {
+                        "id": 16,
+                        "name": "MAKHANI PANEER",
+                        "description": "White Paneer & Capsicum on Makhani Sauce",
+                        "size": "regular",
+                        "price": 215,
+                        "img": "/assets/images/veg/img15.png"
+                    },
+                    {
+                        "id": 17,
+                        "name": "MAKHANI PANEER",
+                        "description": "White Paneer & Capsicum on Makhani Sauce",
+                        "size": "Medium",
+                        "price": 405,
+                        "img": "/assets/images/veg/img15.png"
+                    },
+                    {
+                        "id": 18,
+                        "name": "MAKHANI PANEER",
+                        "description": "White Paneer & Capsicum on Makhani Sauce",
+                        "size": "large",
+                        "price": 575,
+                        "img": "/assets/images/veg/img15.png"
+                    },
+                    {
+                        "id": 19,
+                        "name": "BIHARI PIZZA",
+                        "description": "Paneer, Capsicum, Onion & Makhni Souce",
+                        "size": "regular",
+                        "price": 215,
+                        "img": "/assets/images/veg/img16.png"
+                    },
+                    {
+                        "id": 20,
+                        "name": "MAKHANI PANEER",
+                        "description": "White Paneer & Capsicum on Makhani Sauce",
+                        "size": "Medium",
+                        "price": 405,
+                        "img": "/assets/images/veg/img16.png"
+                    },
+                    {
+                        "id": 21,
+                        "name": "MAKHANI PANEER",
+                        "description": "White Paneer & Capsicum on Makhani Sauce",
+                        "size": "large",
+                        "price": 575,
+                        "img": "/assets/images/veg/img16.png"
                     }
                 ]
             },
-
-             {
+            {
                 "title": "SPECIAL VEG.",
                 "DishItem": [
                     {
                         "id": 1,
-                        "name": "cheese capsicum",
-                        "description": "Cheese & Capsicum",
+                        "name": "PIZZA DELUXE VEGGIE",
+                        "description": "Onion, Capsicum, Mushroom, Golden Corn & Masala Paneer",
                         "size": "regular",
-                        "price": 115,
-                        "img": "/assets/images/cardImg1.png"
+                        "price": 215,
+                        "img": "/assets/images/veg/img17.png"
                     },
                     {
                         "id": 2,
-                        "name": "cheese capsicum",
-                        "description": "Cheese & Capsicum",
+                        "name": "PIZZA DELUXE VEGGIE",
+                        "description": "Onion, Capsicum, Mushroom, Golden Corn & Masala Paneer",
                         "size": "Medium",
-                        "price": 225,
-                        "img": "/assets/images/cardImg1.png"
+                        "price": 405,
+                        "img": "/assets/images/veg/img17.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "PIZZA DELUXE VEGGIE",
+                        "description": "Onion, Capsicum, Mushroom, Golden Corn & Masala Paneer",
+                        "size": "large",
+                        "price": 575,
+                        "img": "/assets/images/veg/img17.png"
+                    },
+                    {
+                        "id": 4,
+                        "name": "MORE SPICY PIZZA",
+                        "description": "Onion, Capsicum, Red Paprika & Golden Corn, Paneer & Maxican Seasoning",
+                        "size": "regular",
+                        "price": 215,
+                        "img": "/assets/images/veg/img18.png"
+                    },
+                    {
+                        "id": 5,
+                        "name": "MORE SPICY PIZZA",
+                        "description": "Onion, Capsicum, Red Paprika & Golden Corn, Paneer & Maxican Seasoning",
+                        "size": "Medium",
+                        "price": 405,
+                        "img": "/assets/images/veg/img18.png"
+                    },
+                    {
+                        "id": 6,
+                        "name": "MORE SPICY PIZZA",
+                        "description": "Onion, Capsicum, Red Paprika & Golden Corn, Paneer & Maxican Seasoning",
+                        "size": "large",
+                        "price": 575,
+                        "img": "/assets/images/veg/img18.png"
+                    },
+                    {
+                        "id": 7,
+                        "name": "EXTRA VEG EXTRAVAGANZA PIZZA",
+                        "description": "Black Olives, Onion, Capsicum, Mushroom",
+                        "size": "regular",
+                        "price": 215,
+                        "img": "/assets/images/veg/img19.png"
+                    },
+                    {
+                        "id": 8,
+                        "name": "EXTRA VEG EXTRAVAGANZA PIZZA",
+                        "description": "Black Olives, Onion, Capsicum, Mushroom",
+                        "size": "Medium",
+                        "price": 405,
+                        "img": "/assets/images/veg/img19.png"
+                    },
+                    {
+                        "id": 9,
+                        "name": "EXTRA VEG EXTRAVAGANZA PIZZA",
+                        "description": "Black Olives, Onion, Capsicum, Mushroom",
+                        "size": "large",
+                        "price": 575,
+                        "img": "/assets/images/veg/img19.png"
+                    },
+                    {
+                        "id": 10,
+                        "name": "INDIAN TANDOORI PANEER PIZZA",
+                        "description": "Paneer Tikka, Capsicum & Red Peprika on Makhani Sauce",
+                        "size": "regular",
+                        "price": 215,
+                        "img": "/assets/images/veg/img20.png"
+                    },
+                    {
+                        "id": 11,
+                        "name": "INDIAN TANDOORI PANEER PIZZA",
+                        "description": "Paneer Tikka, Capsicum & Red Peprika on Makhani Sauce",
+                        "size": "Medium",
+                        "price": 405,
+                        "img": "/assets/images/veg/img20.png"
+                    },
+                    {
+                        "id": 12,
+                        "name": "INDIAN TANDOORI PANEER PIZZA",
+                        "description": "Paneer Tikka, Capsicum & Red Peprika on Makhani Sauce",
+                        "size": "large",
+                        "price": 575,
+                        "img": "/assets/images/veg/img20.png"
                     }
                 ]
-            }
-
-            ,
-
-             {
+            },
+            {
                 "title": "SPICY PIZZA MANIA",
                 "DishItem": [
                     {
                         "id": 1,
-                        "name": "cheese capsicum",
-                        "description": "Cheese & Capsicum",
-                        "size": "regular",
-                        "price": 115,
-                        "img": "/assets/images/cardImg1.png"
+                        "name": "SPICY PIZZA",
+                        "description": "CAPSICUM PANEER, HOT SAUCE",
+                        "price": 145,
+                        "img": "/assets/images/veg/img21.png"
                     },
                     {
                         "id": 2,
-                        "name": "cheese capsicum",
-                        "description": "Cheese & Capsicum",
-                        "size": "Medium",
-                        "price": 225,
-                        "img": "/assets/images/cardImg1.png"
+                        "name": "CLASSIC SPICY PIZZA",
+                        "description": "PANEER RED PEPRIKA, HOT SAUCE",
+                        "price": 145,
+                        "img": "/assets/images/veg/img22.png"
                     }
                 ]
-            }
-
-            ,   {
+            },
+            {
                 "title": " SMALL PIZZA MANIA",
                 "DishItem": [
                     {
                         "id": 1,
-                        "name": "cheese capsicum",
-                        "description": "Cheese & Capsicum",
-                        "size": "regular",
-                        "price": 115,
-                        "img": "/assets/images/cardImg1.png"
+                        "name": "ONION",
+                        "price": 145,
+                        "img": "/assets/images/veg/img23.png"
                     },
                     {
                         "id": 2,
-                        "name": "cheese capsicum",
-                        "description": "Cheese & Capsicum",
-                        "size": "Medium",
-                        "price": 225,
-                        "img": "/assets/images/cardImg1.png"
+                        "name": "TOMATO",
+                        "price": 145,
+                        "img": "/assets/images/veg/img24.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": " CAPSICUM",
+                        "price": 145,
+                        "img": "/assets/images/veg/img25.png"
+                    },
+                    {
+                        "id": 4,
+                        "name": "GOLDEN CORN",
+                        "price": 145,
+                        "img": "/assets/images/veg/img26.png"
+                    },
+                    {
+                        "id": 5,
+                        "name": "PANEER CAPSICUM",
+                        "price": 145,
+                        "img": "/assets/images/veg/img27.png"
+                    },
+                    {
+                        "id": 6,
+                        "name": "CHEESY PANEER ONION",
+                        "price": 145,
+                        "img": "/assets/images/veg/img28.png"
+                    },
+                    {
+                        "id": 7,
+                        "name": "PAN VEGGIE LOADED",
+                        "price": 145,
+                        "img": "/assets/images/veg/img29.png"
+                    },
+                    {
+                        "id": 8,
+                        "name": "ONION + CORN",
+                        "price": 145,
+                        "img": "/assets/images/veg/img30.png"
+                    },
+                    {
+                        "id": 9,
+                        "name": "CORN + PANEER",
+                        "price": 145,
+                        "img": "/assets/images/veg/img31.png"
+                    },
+                    {
+                        "id": 10,
+                        "name": "CLASSIC CHEESY PIZZA",
+                        "price": 145,
+                        "img": "/assets/images/veg/img32.png"
                     }
                 ]
             },
-
-             {
+            {
                 "title": " MAKE IT A MEAL",
                 "DishItem": [
                     {
                         "id": 1,
-                        "name": "cheese capsicum",
-                        "description": "Cheese & Capsicum",
-                        "size": "regular",
-                        "price": 115,
-                        "img": "/assets/images/cardImg1.png"
+                        "name": "PIZZA DELUXE",
+                        "description": "CHEESE & TOMATO (R) + 750 ML",
+                        "price": 610,
+                        "img": "/assets/images/veg/img33.png"
                     },
                     {
                         "id": 2,
-                        "name": "cheese capsicum",
-                        "description": "Cheese & Capsicum",
-                        "size": "Medium",
-                        "price": 225,
-                        "img": "/assets/images/cardImg1.png"
+                        "name": "PEPPY PANEER (M)",
+                        "description": "COUNTRY SPECIAL (R) + 750 ML",
+                        "price": 625,
+                        "img": "/assets/images/veg/img34.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "2 GARLIC BREAD STICKS",
+                        "description": "COLD DRINK 250 ml",
+                        "price": 189,
+                        "img": "/assets/images/veg/img35.png"
+                    },
+                    {
+                        "id": 4,
+                        "name": "PANEER ONION",
+                        "description": "COLD DRINK 250 ml",
+                        "price": 128,
+                        "img": "/assets/images/veg/img36.png"
                     }
                 ]
             }
-        ] 
+        ]
+    },
+    "non-veg": {
+        "section": [
+            {
+                "title": "SIMPLY NON- VEG.",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "BBQ CHICKEN PIZZA",
+                        "description": "Barbecue Chicken & Cheese",
+                        "size": "regular",
+                        "price": 205,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "BBQ CHICKEN PIZZA",
+                        "description": "Barbecue Chicken & Cheese",
+                        "size": "Medium",
+                        "price": 399,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "BBQ CHICKEN PIZZA",
+                        "description": "Barbecue Chicken & Cheese",
+                        "size": "large",
+                        "price": 510,
+                        "img": "/assets/images/non-veg/img1.png"
+                    }
+                ]
+            },
+            {
+                "title": "CLASSIC NON- VEG.",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "BBQ CHICKEN & ONION",
+                        "description": "Barbecue Chicken & Onion",
+                        "size": "regular",
+                        "price": 205,
+                        "img": "/assets/images/non-veg/img2.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "BBQ CHICKEN & ONION",
+                        "description": "Barbecue Chicken & Onion",
+                        "size": "Medium",
+                        "price": 399,
+                        "img": "/assets/images/non-veg/img2.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "BBQ CHICKEN & ONION",
+                        "description": "Barbecue Chicken & Onion",
+                        "size": "large",
+                        "price": 510,
+                        "img": "/assets/images/non-veg/img2.png"
+                    }
+                ]
+            },
+            {
+                "title": "SPECIAL NON- VEG.",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "CHICKEN LOVER",
+                        "description": "Barbecue Chicken & Spicy Chicken",
+                        "size": "regular",
+                        "price": 230,
+                        "img": "/assets/images/non-veg/img6.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "CHICKEN LOVER",
+                        "description": "Barbecue Chicken & Spicy Chicken",
+                        "size": "Medium",
+                        "price": 480,
+                        "img": "/assets/images/non-veg/img6.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "CHICKEN LOVER",
+                        "description": "Barbecue Chicken & Spicy Chicken",
+                        "size": "large",
+                        "price": 635,
+                        "img": "/assets/images/non-veg/img6.png"
+                    },
+                    {
+                        "id": 4,
+                        "name": "INDIAN DESHI CHICKEN",
+                        "description": "Chicken Barbecue, Spicy Chicken Onion & Capsicum",
+                        "size": "regular",
+                        "price": 230,
+                        "img": "/assets/images/non-veg/img5.png"
+                    },
+                    {
+                        "id": 5,
+                        "name": "INDIAN DESHI CHICKEN",
+                        "description": "Chicken Barbecue, Spicy Chicken Onion & Capsicum",
+                        "size": "Medium",
+                        "price": 480,
+                        "img": "/assets/images/non-veg/img5.png"
+                    },
+                    {
+                        "id": 6,
+                        "name": "INDIAN DESHI CHICKEN",
+                        "description": "Chicken Barbecue, Spicy Chicken Onion & Capsicum",
+                        "size": "large",
+                        "price": 635,
+                        "img": "/assets/images/non-veg/img5.png"
+                    },
+                    {
+                        "id": 7,
+                        "name": "NON VEG PREMIUM",
+                        "description": "Black Olives, Onion, Capsicum, Barbecue Chicken & Extra Cheese",
+                        "size": "regular",
+                        "price": 230,
+                        "img": "/assets/images/non-veg/img4.png"
+                    },
+                    {
+                        "id": 8,
+                        "name": "NON VEG PREMIUM",
+                        "description": "Black Olives, Onion, Capsicum, Barbecue Chicken & Extra Cheese",
+                        "size": "Medium",
+                        "price": 480,
+                        "img": "/assets/images/non-veg/img4.png"
+                    },
+                    {
+                        "id": 9,
+                        "name": "NON VEG PREMIUM",
+                        "description": "Black Olives, Onion, Capsicum, Barbecue Chicken & Extra Cheese",
+                        "size": "large",
+                        "price": 635,
+                        "img": "/assets/images/non-veg/img4.png"
+                    },
+                    {
+                        "id": 10,
+                        "name": "INDIAN CHICKEN SPICY",
+                        "description": "Barbecue Chicken, Onion, Red Paprika on Makhani Sauc",
+                        "size": "regular",
+                        "price": 230,
+                        "img": "/assets/images/non-veg/img3.png"
+                    },
+                    {
+                        "id": 11,
+                        "name": "INDIAN CHICKEN SPICY",
+                        "description": "Barbecue Chicken, Onion, Red Paprika on Makhani Sauc",
+                        "size": "Medium",
+                        "price": 480,
+                        "img": "/assets/images/non-veg/img3.png"
+                    },
+                    {
+                        "id": 12,
+                        "name": "INDIAN CHICKEN SPICY",
+                        "description": "Barbecue Chicken, Onion, Red Paprika on Makhani Sauc",
+                        "size": "large",
+                        "price": 635,
+                        "img": "/assets/images/non-veg/img3.png"
+                    },
+                    {
+                        "id": 13,
+                        "name": "BBQ CHICKEN",
+                        "price": 125,
+                        "img": "/assets/images/non-veg/img7.png"
+                    },
+                    {
+                        "id": 14,
+                        "name": "PAN LOADED NON-VEG",
+                        "price": 155,
+                        "img": "/assets/images/non-veg/img7.png"
+                    }
+                ]
+            }
+        ]
     }
-    
-
-
-
-
-    }
+}
