@@ -30,6 +30,7 @@ const ProductCard = ({dish,addItem}) => {
                         <p className='text-xs md:text-sm text-[#3A3636] pt-1'>{dish.description}</p>
                       </div>
 
+
                       <div className='flex gap-4 capitalize items-center'>
                         <NavLink className="md:w-20 w-16 md:h-9 h-8 md:text-base text-sm bg-btnBg justify-center rounded-[8px] items-center flex text-white font-bold" to="/Cart">
                           add +

@@ -1,8 +1,41 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { MdDelete } from "react-icons/md";
+import { CartContext } from '../../../app/contextApi/CartContext';
+
 
 const CartItem = () => {
+ 
+   const { cartItem, removeItem } = useContext(CartContext);
+ 
+ 
   return (
-    <div>CartItem</div>
+    
+<>
+       {/* Cart Items */}
+              <div className='border p-4 lg:w-[70%] md:w-[60%] xl:w-[60%] rounded-xl flex flex-col overflow-auto'>
+                {cartItem.map(item => (
+                  <div className='flex justify-between relative  sm:grid grid-cols-3 flex-wrap gap-4 py-2 items-center border-b-2' key={item.id}>
+                    <div className='w-[40%] sm:w-auto'>
+                      <img src={item.img} alt="" className='object-cover md:w-20 md:h-20 w-12 h-12'/>
+                    </div>
+                    <div className='flex flex-col justify-start sm:w-auto w-[60%]'>
+                       <div className='bg-[#BFE18B] text-xs w-auto flex justify-center capitalize items-center absolute right-0 sm:top-0 top-4 p-1'>
+                      {item.size}
+                    </div>
+                      <p className='md:text-base text-sm font-bold text-[#3A3636] uppercase'>{item.name}</p>
+                      <p className='text-sm text-[#3A3636]'>{item.description}</p>
+                      <p className='pt-2 text-base font-bold'>{item.price} ₹</p>
+                    </div>
+                    <div className='flex justify-end items-center'>
+                      <MdDelete className='text-2xl cursor-pointer' onClick={() => removeItem(item.id)} />
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              </>
+
+
   )
 }
 

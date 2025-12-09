@@ -1,11 +1,11 @@
 import React, { useContext, useState } from 'react';
-import { MdDelete } from "react-icons/md";
 import { NavLink } from 'react-router-dom';
 import { CartContext } from '../../app/contextApi/CartContext';
+import CartItem from '../../features/Cart/components/CartItem';
 
 const Cart = () => {
-  const { cartItem, removeItem } = useContext(CartContext);
-
+  
+  const { cartItem } = useContext(CartContext);
   const [name, setName] = useState("");
   const [deliveryType, setDeliveryType] = useState("home"); // "home" or "dinein"
   const [tableNo, setTableNo] = useState("");
@@ -13,7 +13,9 @@ const Cart = () => {
   const [mobile, setMobile] = useState("");
 
   const totalPrice = cartItem.reduce((acc, item) => acc + item.price, 0);
-  const finalTotal = totalPrice;
+  const tax = totalPrice * 0.05
+    const finalTotal = totalPrice + tax;
+
 
   const sendOrderWhatsApp = () => {
     if (!name || (deliveryType === "dinein" && !tableNo) || (deliveryType === "home" && (!address || !mobile))) {
@@ -32,6 +34,8 @@ const Cart = () => {
       message += `📌 ${index + 1}. ${item.name}\n`;
       message += `   Description: ${item.description}\n`;
       message += `   Price: ${item.price}₹\n\n`;
+      message += `*TAX (5%):* ${tax.toFixed(2)}₹\n`;
+
     });
 
     message += `💰 *Total Price:* ${finalTotal.toFixed(2)}₹\n\n`;
@@ -47,7 +51,7 @@ const Cart = () => {
       <div className='mx-auto container flex flex-col gap-6 md:gap-8 lg:gap-10 h-auto lg:h-[80%]'>
 
         {/* Heading */}
-        <div className='border-b-2 border-[#0BCBD1] w-fit pb-4'>
+        <div className='border-b-2 border-[#0BCBD1] w-fit lg:pb-8 pb-4 '>
           <h1 className='lg:text-5xl md:text-[40px] text-[32px] capitalize font-bold'>
             my <span className='text-[#0BCBD1]'>cart</span>
           </h1>
@@ -55,24 +59,7 @@ const Cart = () => {
 
         <div className='flex gap-6 h-full flex-col md:flex-row'>
 
-          {/* Cart Items */}
-          <div className='border p-4 lg:w-[70%] md:w-[60%] xl:w-[60%] rounded-xl flex flex-col overflow-auto'>
-            {cartItem.map(item => (
-              <div className='flex justify-between sm:grid grid-cols-3 flex-wrap gap-4 py-2 items-center border-b-2' key={item.id}>
-                <div className='w-[40%] sm:w-auto'>
-                  <img src={item.img} alt="" className='object-cover md:w-20 md:h-20 w-12 h-12'/>
-                </div>
-                <div className='flex flex-col justify-start sm:w-auto w-[60%]'>
-                  <p className='md:text-base text-sm font-bold text-[#3A3636] uppercase'>{item.name}</p>
-                  <p className='text-sm text-[#3A3636]'>{item.description}</p>
-                  <p className='pt-2 text-base font-bold'>{item.price} ₹</p>
-                </div>
-                <div className='flex justify-end items-center'>
-                  <MdDelete className='text-2xl cursor-pointer' onClick={() => removeItem(item.id)} />
-                </div>
-              </div>
-            ))}
-          </div>
+       <CartItem/>
 
           {/* Price & Customer Details */}
           <div className='border lg:w-[30%] md:w-[40%] xl:w-[40%] h-full p-4 rounded-xl overflow-auto'>
@@ -83,7 +70,7 @@ const Cart = () => {
             </div>
             <div className='flex justify-between border-b pb-4'>
               <p>TAX:</p>
-              <p>+ 0</p>
+              <p>₹ {tax.toFixed(2)}</p>
             </div>
             <div className='flex justify-between mt-4 font-bold'>
               <p>Total price:</p>
