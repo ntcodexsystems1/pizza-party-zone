@@ -12,7 +12,12 @@ const CartItem = () => {
     
 <>
        {/* Cart Items */}
-              <div className='border p-4 lg:w-[70%] md:w-[60%] xl:w-[60%] rounded-xl flex flex-col overflow-auto'>
+
+       {
+       
+       cartItem.length > 0 ? (
+       
+ <div className='border p-4 lg:w-[70%] md:w-[60%] xl:w-[60%] rounded-xl flex flex-col overflow-auto'>
                 {cartItem.map(item => (
                   <div className='flex justify-between relative  sm:grid grid-cols-3 flex-wrap gap-4 py-2 items-center border-b-2' key={item.id}>
                     <div className='w-[40%] sm:w-auto'>
@@ -31,7 +36,12 @@ const CartItem = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div>       
+       ) : (<h1 className='text-center border rounded-xl capitalize text-slate-700 py-4'>cart is empty</h1>)
+       
+       
+       }
+             
 
               </>
 
