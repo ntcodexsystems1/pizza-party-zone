@@ -67,14 +67,14 @@ const CartSummary = ({ deliveryType, setDeliveryType, mobile, name, setName, set
         invoice += `GST (5%): ${tax.toFixed(2)}₹\n`;
         invoice += `*Total Amount (Gross): ${finalBill.toFixed(2)}₹*\n`;
         invoice += `-----------------------------------\n`;
-                invoice += `Payment is accepted COD & ONLINE: mdnasima331-1@okaxis\n`;
+                invoice += `Payment is accepted COD & ONLINE: mdnasima331-1@okaxis\n\n`;
 
 
         invoice += `Please deliver within 30 minutes.\n`;
         invoice += `Thank you for ordering from Pizza Party Zone!`;
         alert("✅ Order successful! Please wait...");
 
-        const phoneNumber = "9113499324"; // seller's number
+        const phoneNumber = "8271154435"; // seller's number
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(invoice)}`;
         window.open(url, "_blank");
 
@@ -175,7 +175,7 @@ setChangeBtnSign(newSign => !newSign)
 
 
                                                 <div className='flex gap-4 capitalize items-center'>
-                                                    <NavLink className="md:w-20 w-16 md:h-9 h-8 md:text-base text-sm bg-green-500 justify-center rounded-[8px] items-center flex text-white font-bold" to="/Cart">
+                                                    <NavLink className="md:w-20 w-16 md:h-9 h-8 md:text-base text-sm bg-green-500 justify-center rounded-[8px] items-center flex text-white font-bold" to="/Cart" onClick={() => alert("✅ toppings added successful! ")}>
                                                         add +
                                                     </NavLink>
                                                     <p className='font-bold md:text-base text-sm'>{dish.price} ₹</p>
