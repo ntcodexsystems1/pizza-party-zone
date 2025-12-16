@@ -8,7 +8,6 @@ import Hero from '../../features/products/components/Hero';
 
 const Products = () => {
 
- const [select, setSelected] = useState("veg")
 
 
   return (
@@ -20,16 +19,12 @@ const Products = () => {
 
       {/* hero section  */}
 
-   <Hero 
-
-   select={select}
-   onSelected={setSelected}
-   
+   <Hero    
    />
 
       {/* products - card section */}
 
-<ProductList cat={select}/>
+<ProductList/>
      
 
 

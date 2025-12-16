@@ -1,7 +1,6 @@
 import React from 'react'
 import logo from '../../assets/images/logo.png'
 import { CiSearch } from "react-icons/ci";
-import { NavLink } from 'react-router-dom';
 
 
 
@@ -13,7 +12,6 @@ const Navbar = () => {
    
    <>
   
-     
    {/* header section */}
        
      <header className=' w-full h-auto py-2 px-4 md:px-8 lg:px-24 border-b-2'>

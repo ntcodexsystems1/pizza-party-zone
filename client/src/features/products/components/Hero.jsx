@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { NavLink } from 'react-router-dom';
+import { CartContext } from '../../../app/contextApi/CartContext';
 
 
-const Hero = ({ onSelected}) => {
+const Hero = () => {
  
  
+const {select, setSelected} = useContext(CartContext)
+
     return (
 
 
@@ -23,16 +26,21 @@ const Hero = ({ onSelected}) => {
 
 
 
-            <div>
+            <div className=''>
 
-              <ul className='capitalize flex gap-4 justify-center sm:justify-start'>
+              <ul className='capitalize flex gap-4 justify-start overflow-auto  '>
 
-                <li className={`w-40 sm:h-12 h-10 text-sm sm:text-base font-bold   flex justify-center text-white items-center rounded-xl bg-secondary `} onClick={() => onSelected("veg") }>
+                <li className={`w-40 sm:h-12 h-10 text-sm sm:text-base font-bold flex-shrink-0  flex justify-center text-white items-center rounded-xl bg-btnBg ${select=="veg" ? "bg-secondary text-white" : "bg-red-500 text-white"}`} onClick={() => setSelected("veg") }>
                   <NavLink>veg pizzas</NavLink>
                 </li>
 
-                <li className='w-40 sm:h-12 h-10 text-sm sm:text-base bg-btnBg font-bold text-white rounded-xl flex justify-center items-center' onClick={() => onSelected("non-veg") }>
+                <li className={`w-40 sm:h-12 h-10 text-sm sm:text-base flex-shrink-0 bg-btnBg font-bold text-white rounded-xl flex justify-center items-center ${select == "non-veg" ? "bg-secondary text-white" : "bg-btnBg text-white"}`} onClick={() => setSelected("non-veg") }>
                   <NavLink>non-veg pizzas</NavLink>
+
+                </li>
+
+                 <li className={`w-40 sm:h-12 h-10 text-sm sm:text-base flex-shrink-0 bg-btnBg font-bold text-white rounded-xl flex justify-center items-center ${select == "starters" ? "bg-secondary text-white" : "bg-btnBg text-white"}`} onClick={() => setSelected("starters") }>
+                  <NavLink>Fav starters</NavLink>
 
                 </li>
 

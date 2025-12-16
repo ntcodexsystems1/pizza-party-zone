@@ -794,5 +794,251 @@
                 ]
             }
         ]
+    },
+    "starters": {
+        "section": [
+            {
+                "title": "fav starters",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "GARLIC BREAD",
+                        "size":"regular",
+                        "price": 101,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "STUFFED GARLIC BRAED",
+                        "price": 139,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "TANDOOR STUFF PERI PERI BREAD",
+                        "price": 159,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 4,
+                        "name": "PANEER ZINGY",
+                        "description": "veg",
+                        "price": 49,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 5,
+                        "name": "TACO ITALIANO (2 Pcs)",
+                        "description": "veg",
+                        "price": 140,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 6,
+                        "name": "SPICY LEBANESE ROLL",
+                        "description": "veg",
+                        "price": 159,
+                        "img": "/assets/images/non-veg/img1.png"
+                    }
+                ]
+            },
+            {
+                "title": "PASTA INDIAN",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "White Sauce",
+                        "description": "veg",
+                        "price": 135,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Red Sauce",
+                        "description": "veg",
+                        "price": 135,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Mix Sauce",
+                        "description": "veg",
+                        "price": 140,
+                        "img": "/assets/images/non-veg/img1.png"
+                    }
+                ]
+            },
+            {
+                "title": "BURGER PIZZA",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "Supreme Veg.",
+                        "price": 120,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Special Non-Veg.",
+                        "price": 140,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Calzone Pocket (2 Pcs )",
+                        "description": "veg",
+                        "price": 149,
+                        "img": "/assets/images/non-veg/img1.png"
+                    }
+                ]
+            },
+            {
+                "title": "FAVORITE CHICKEN",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "CHICKEN MEATBALLS (5 PCS) Peri-Peri",
+                        "price": 135,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "CHICKEN WINGS (4 PCS)",
+                        "price": 140,
+                        "img": "/assets/images/non-veg/img1.png"
+                    }
+                ]
+            }
+            ,
+            {
+                "title": "REFRESHING BEVERAGES",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "COCO COLA",
+                        "price": 20,
+                        "img": "/assets/images/non-veg/img1.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "toppings": {
+        "section": [
+            {
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "Extra Cheese",
+                        "size": "regular",
+                        "price": 40,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Extra Cheese",
+                        "size": "Medium",
+                        "price": 60,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Extra Cheese",
+                        "size": "large",
+                        "price": 80,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Vegetarian",
+                        "size": "regular",
+                         "description":"Mushroom, Black Olives, Onion, Capsicum, Paneer Golden Corn, Tomato, Red Paprika, Jalapeno",
+                        "price": 30,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Vegetarian",
+                        "size": "Medium",
+                         "description":"Mushroom, Black Olives, Onion, Capsicum, Paneer Golden Corn, Tomato, Red Paprika, Jalapeno",
+                        "price": 50,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Vegetarian",
+                        "size": "large",
+                         "description":"Mushroom, Black Olives, Onion, Capsicum, Paneer Golden Corn, Tomato, Red Paprika, Jalapeno",
+                        "price": 70,
+                        "img": "/assets/images/non-veg/img1.png"
+                    }
+                ]
+            },
+            {
+                "title": "Chicken Toppings",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "Barbecue Chicken",
+                        "size": "regular",
+                        "price": 40,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Barbecue Chicken",
+                        "size": "Medium",
+                        "price": 60,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Barbecue Chicken",
+                        "size": "large",
+                        "price": 75,
+                        "img": "/assets/images/non-veg/img1.png"
+                    }
+                ]
+            }
+            ,
+            {
+                "title": "BASE OF CHOICE",
+                "DishItem": [
+                    {
+                        "id": 1,
+                        "name": "Pan Pizza",
+                        "size": "regular",
+                        "price": 20,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Pan Pizza",
+                        "size": "Medium",
+                        "price": 30,
+                        "img": "/assets/images/non-veg/img1.png"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Cheese Burst*",
+                        "size": "regular",
+                        "price": 65,
+                        "img": "/assets/images/non-veg/img1.png"
+                    }
+
+                    ,
+                    {
+                        "id": 4,
+                        "name": "Cheese Burst*",
+                        "size": "Medium",
+                        "price": 80,
+                        "img": "/assets/images/non-veg/img1.png"
+                    }
+                ]
+            }
+            
+            
+            
+        ]
     }
 }

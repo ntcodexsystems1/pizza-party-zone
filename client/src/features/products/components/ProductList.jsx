@@ -5,51 +5,13 @@ import ProductCard from './ProductCard';
 import { CartContext } from '../../../app/contextApi/CartContext';
 import { useContext } from 'react';
 
-const ProductList = ({cat}) => {
-  
-    const [cardData, setCard] = useState([]);
-  
-  
-    // all dishes display logic below
+const ProductList = () => {
 
-    useEffect(() => {
-  
-      const fetchData = async () => {
-  
-        try {
-  
-          const res = await axios.get('/assets/data.json');
-          // Transform data: keep the category title and attach it to each dish
-          const allDishes = res.data[cat].section.map((item) => (
-
-{
-title:item.title,
-DishItem:item.DishItem
-}
-
-
-          ))
-
-
-          setCard(allDishes);
-  
-        }
-  
-        catch (error) {
-          console.error("Error fetching card data:", error);
-  
-  
-        }
-      };
-  
-      fetchData();
-  
-    }, [cat])
   
   
 // add item in cart 
 
-    const {addItem} = useContext(CartContext)
+    const {addItem, cardData } = useContext(CartContext)
 
   
 
@@ -63,7 +25,7 @@ DishItem:item.DishItem
           {cardData.map((section) => (
             <div className=' grid grid-cols-1 gap-6' key={section.id}>
               <div>
-                <span className='bg-[#E6D2D2] text-xs font-bold p-2'>
+                <span className='bg-[#E6D2D2] text-xs font-bold p-2 uppercase'>
                   {section.title}
                 </span>
               </div>
