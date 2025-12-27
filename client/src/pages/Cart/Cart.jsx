@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import { CartContext } from '../../app/contextApi/CartContext';
 import CartItem from '../../features/Cart/components/CartItem';
 import CartSummary from '../../features/Cart/components/CartSummary';
+import { FaArrowRightLong } from "react-icons/fa6";
+
 
 
 
@@ -25,10 +27,23 @@ const Cart = () => {
       <div className='mx-auto container flex flex-col gap-6 md:gap-8 lg:gap-10 h-auto lg:h-[80%]'>
 
         {/* Heading */}
-        <div className='border-b-2 border-[#0BCBD1] w-fit lg:pb-4 pb-4 '>
-          <h1 className='lg:text-4xl md:text-[30px] text-[22px] capitalize font-bold'>
+        <div className='grid grid-cols-2 items-center '>
+
+          <div className='border-b-2 border-[#0BCBD1] w-fit lg:pb-4 pb-4'>
+  <h1 className='lg:text-4xl md:text-[30px] text-[22px] capitalize font-bold'>
             my <span className='text-[#0BCBD1]'>cart</span>
           </h1>
+          </div>
+        
+         <div>
+
+          <NavLink to="/Products" className=' grid grid-cols-[auto_auto] gap-2 justify-end items-center cusror-pointer'>
+  <FaArrowRightLong /> <span className='font-bold md:text-base text-sm '>
+More Order</span>
+          </NavLink>
+       
+
+         </div>
         </div>
 
         <div className='flex gap-6 h-full flex-col  md:flex-row bg-green-100' >
